@@ -123,4 +123,36 @@ section {
   border-radius: 40px;
 }
 
+/* ================= PRODUCTIVE USERS ================= */
 
+.productive-user {
+  background-color: rgba(78, 71, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.productive-user h2 {
+  text-align: center;
+  font-size: 38px;
+  color: #252432;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.stat-number {
+  font-size: 80px;
+  color: var(--primary-Color);
+  font-family: var(--secondary-font);
+  font-weight: 800;
+}
+
+.stat-para {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: var(--secondary-font);
+  text-align: center;
+}
