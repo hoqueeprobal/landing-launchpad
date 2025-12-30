@@ -272,6 +272,30 @@ section {
   object-fit: cover;
 }
 
+/* ===== WHAT OUR USERS SAY CARD HOVER WITH COLOR =====*/
+.review-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.review-card:nth-child(1):hover {
+  background-color: #e0f7fa; 
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.review-card:nth-child(2):hover {
+  background-color: #fff3e0; 
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.review-card:nth-child(3):hover {
+  background-color: #fce4ec;
+  transform: translateY(-10px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
 /* ================= EXTRA SECTION ================= */
 .extra-section-container {
   background-color: #fff;
