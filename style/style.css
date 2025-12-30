@@ -61,3 +61,21 @@ nav .signupbutton {
   cursor: pointer;
 }
 
+/* ================= BANNER ================= */
+
+.banner h1 {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 50px;
+}
+
+.banner-txt {
+  border: none;
+  background-color: var(--primary-Color);
+  border-radius: 8px;
+  padding: 10px;
+  color: var(--secondary-Color);
+  display: block;
+  margin: 20px auto 0 auto;
+  cursor: pointer;
+}
