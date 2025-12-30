@@ -186,6 +186,21 @@ section {
   color: #252432;
 }
 
+/* Full Stats Section Hover */
+.productive-user {
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+  padding: 40px 20px;
+  border-radius: 12px;
+}
+
+.productive-user:hover {
+  background-color: rgba(78, 71, 255, 0.2); 
+  transform: translateY(-10px) scale(1.02);  
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+
 .stats-container {
   display: flex;
   justify-content: space-around;
@@ -205,6 +220,8 @@ section {
   font-family: var(--secondary-font);
   text-align: center;
 }
+
+
 
 /* ================= REVIEWS ================= */
 .main-content-wrapper {
